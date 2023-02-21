@@ -1,0 +1,16 @@
+.headerIcon {
+  width: 30px;
+}
+.main-header {
+  background-color: #cab7fd;
+  padding: 13px;
+}
+a {
+  color: #212020 !important;
+}
+.head-icon i {
+  font-size: 30px;
+}
+.head-icon {
+  margin-top: -6px;
+}

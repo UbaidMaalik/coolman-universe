@@ -1,0 +1,72 @@
+.left img {
+  width: 45%;
+}
+.right img {
+  width: 100%;
+}
+.centerText h2 {
+  font-weight: 900 !important;
+  font-size: 40px;
+  color: #000;
+}
+.centerText h2 {
+  font-weight: 900 !important;
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+}
+.centerText p {
+  color: #7d00df;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 200 !important;
+}
+.banner {
+  padding-top: 5em;
+  position: relative;
+}
+.centerText {
+  text-align: center;
+}
+button.btn-banner {
+  width: 55%;
+  padding: 5px;
+  border-radius: 31px;
+  border: 2px solid #000;
+  font-size: 25px;
+  margin-top: 1em;
+}
+.slid img {
+  width: 100%;
+  border-radius: 5em;
+  box-shadow: 0 11px 25px 11px rgb(0 0 0 / 25%);
+}
+.slid {
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+  top: 21em;
+  text-align: center;
+  padding-bottom: 4em;
+}
+button.btn-banner:hover {
+  box-shadow: 0 12px 25px rgb(40 34 73 / 30%);
+  transform: translateY(-3px);
+}
+@media only screen and (max-width: 768px) {
+  .left img {
+    display: none;
+  }
+  .right img {
+    display: none;
+  }
+  button.btn-banner {
+    width: 74%;
+    margin-top: 0;
+  }
+  .slid img {
+    width: 100%;
+    border-radius: 1em;
+    margin-top: 4em;
+  }
+}

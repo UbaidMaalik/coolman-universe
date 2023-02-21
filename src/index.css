@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Pixellari";
+  src: local("Pixellari"), url("./fonts/Pixellari.ttf") format("truetype");
+  /* font-weight: bold; */
+}
+body {
+  margin: 0;
+  font-family: "Pixellari";
+  background-color: #cab7fd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a:hover {
+  color: #743ceb !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

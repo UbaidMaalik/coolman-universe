@@ -1,0 +1,21 @@
+.faq {
+  padding-top: 4em;
+}
+.accordion-item {
+  background-color: #fff0;
+  border: 0;
+}
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #e7f1ff03;
+  box-shadow: none;
+}
+.accordion-button {
+  background-color: #fff0;
+  font-size: 22px !important;
+}
+.accordion-body {
+  padding: 1rem 1.25rem;
+  font-size: 18px;
+  color: #00000063;
+}

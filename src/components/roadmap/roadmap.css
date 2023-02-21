@@ -1,0 +1,30 @@
+.roadmap {
+  background: #0000001a;
+  padding-top: 6em;
+}
+.roadmap h2 {
+  text-align: center;
+}
+.left-map h2 {
+  text-align: right !important;
+  color: #4e4c4c4d;
+}
+.right-map p {
+  color: #4c4a4a;
+  font-size: 19px;
+}
+.roadmap h2 {
+  margin-bottom: 1em;
+}
+.right-map {
+  margin-bottom: 2em;
+}
+.last {
+  font-size: 19px;
+  color: #201f1f78;
+}
+@media only screen and (max-width: 768px) {
+  .left-map h2 {
+    text-align: left !important;
+  }
+}
